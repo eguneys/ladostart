@@ -1,0 +1,120 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/eguneys/.local/share/pnpm/store/v3",
+    "virtualStoreDir": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/create-solid/0.1.0-alpha.99",
+    "wanted": {
+      "dependentId": ".",
+      "name": "create-solid",
+      "rawSpec": "next"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-solid/0.1.0-alpha.99",
+    "requester": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "status": "resolved"
+  },
+  "6 debug pnpm:package-manifest": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "updated": {
+      "dependencies": {
+        "create-solid": "0.1.0-alpha.99"
+      }
+    }
+  },
+  "7 debug pnpm:package-manifest": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "updated": {
+      "dependencies": {
+        "create-solid": "0.1.0-alpha.99"
+      }
+    }
+  },
+  "8 debug pnpm:stage": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "stage": "resolution_done"
+  },
+  "9 debug pnpm:stats": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "removed": 0
+  },
+  "10 debug pnpm:stage": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "stage": "importing_started"
+  },
+  "11 debug pnpm:stats": {
+    "added": 1,
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502"
+  },
+  "12 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/create-solid/0.1.0-alpha.99",
+    "size": 978182,
+    "status": "started"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-solid/0.1.0-alpha.99",
+    "requester": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "status": "fetched"
+  },
+  "14 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "15 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "status": "imported",
+    "to": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.pnpm/create-solid@0.1.0-alpha.99/node_modules/create-solid"
+  },
+  "16 debug pnpm:stage": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502",
+    "stage": "importing_done"
+  },
+  "17 debug pnpm:link": {
+    "target": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.pnpm/create-solid@0.1.0-alpha.99/node_modules/create-solid",
+    "link": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/create-solid"
+  },
+  "18 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npmjs.org/create-solid/0.1.0-alpha.99",
+      "latest": "0.0.11",
+      "name": "create-solid",
+      "realName": "create-solid",
+      "version": "0.1.0-alpha.99"
+    },
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502"
+  },
+  "19 debug pnpm:summary": {
+    "prefix": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502"
+  },
+  "20 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.bin/create-solid",
+    "command": "/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.bin/create-solid",
+    "escapedCommand": "\"/home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.bin/create-solid\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.bin/create-solid",
+      "stack": "pnpm: Command failed with exit code 1: /home/eguneys/.local/share/pnpm/store/v3/tmp/dlx-45502/node_modules/.bin/create-solid\n    at makeError (/snapshot/dist/pnpm.cjs)\n    at handlePromise (/snapshot/dist/pnpm.cjs)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler (/snapshot/dist/pnpm.cjs)\n    at async /snapshot/dist/pnpm.cjs\n    at async run (/snapshot/dist/pnpm.cjs)\n    at async runPnpm (/snapshot/dist/pnpm.cjs)\n    at async /snapshot/dist/pnpm.cjs"
+    }
+  }
+}
